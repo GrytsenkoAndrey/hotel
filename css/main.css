@@ -1,0 +1,30 @@
+/*
+main style sheet file
+*/
+
+body{
+    position:relative;
+    width:1440px;
+    height:1343px;
+    padding:0;
+    margin:0;
+}
+.header__top-section{
+    position:absolute;
+    width:1440px;
+    height:70px;
+    left:0;
+    top:0;
+    background-color: #ffffff;
+    box-shadow:0 10px 20px rgba(31, 32, 65, .05);
+}
+.header__top-section-circle{
+    position:absolute;
+    width: 40px;
+    height:40px;
+    left:140px;
+    top:15px;
+    border-radius:50%;
+    border-width:2px;
+    background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+}
